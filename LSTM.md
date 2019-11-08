@@ -9,4 +9,9 @@
 - Along with the hidden state vector ht LSTM maintains a memory vector Ct 
 - At each time step the LSTM can choose to read from, write to or reset the cell using explicit gating mechanism
 - LSTM computes well behaved gradients by controlling the values using the gates
-- check the images for proofs
+- Everytime the values gets appear and dissappear due to the elementarywise addition and multiplication
+- Certain things that we want to be retained will be available through Ct
+- LSTM will remember things through Ct in the process
+- check the images for more details
+
+
